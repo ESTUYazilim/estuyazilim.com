@@ -1,5 +1,6 @@
 {
   "hosting": {
+	"site": "escwebsite-44073",
     "public": "public",
     "ignore": [
       "firebase.json",
