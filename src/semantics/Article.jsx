@@ -1,6 +1,5 @@
-// create a react component to list all github members in material ui paper
 import * as React from "react";
-import { CircularProgress, Grid, Container, Box, Link, Tooltip } from "@mui/material";
+import { CircularProgress, Container, Box } from "@mui/material";
 import { getMembers, getExecutiveStaff } from "../modules/GitHub";
 import { useEffect } from "react";
 import TechnicalTeam from "../components/Team/TechnicalTeam";

@@ -75,6 +75,7 @@ export default function Layout() {
           </IconButton>
         </Fab>
         <Footer />
+        {process.env.REACT_APP_GITHUB_AUTH}
       </Box>
     </ThemeProvider>
   );
