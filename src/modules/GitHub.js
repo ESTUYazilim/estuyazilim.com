@@ -5,7 +5,6 @@ const org_slug = process.env.REACT_APP_ORG_SLUG;
 const github_auth = process.env.REACT_APP_GITHUB_AUTH;
 
 const octokit = new Octokit({
-  auth: github_auth,
 });
 
 export async function getMembers() {
