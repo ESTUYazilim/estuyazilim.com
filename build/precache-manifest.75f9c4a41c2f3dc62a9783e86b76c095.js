@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/static/media/flag-us.be0d3dd8.svg"
   },
   {
-    "revision": "245279e84efe54119656832a833c4cc5",
+    "revision": "f46c4e82b1d069238fd3158ad86899b1",
     "url": "/index.html"
   }
 ];
