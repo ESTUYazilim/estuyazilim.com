@@ -29,7 +29,18 @@ export default function Members() {
     }, []);
 
     return (
-        isLoading ? (<CircularProgress />) :
+        isLoading ? (<Container component="article" id="team">
+                <Box
+                    sx={{
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "center",
+                        minHeight: "15vh",
+                        marginBottom: "2rem",
+                    }}>
+                        <CircularProgress/>
+                </Box>
+            </Container>) :
             (
                 <Container component="article" id="team">
                     <Box
