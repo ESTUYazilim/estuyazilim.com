@@ -7,13 +7,14 @@ import Footer from "./semantics/Footer";
 import Header from "./semantics/Header";
 import Navbar from "./semantics/Navbar";
 import Section from "./semantics/Section";
+import Article from "./semantics/Article";
 import Brightness4Icon from '@mui/icons-material/Brightness4';
 import Brightness7Icon from '@mui/icons-material/Brightness7';
 import IconButton from '@mui/material/IconButton';
 import { trTR, enUS } from '@mui/material/locale';
 import FlagTR from './svg/flag-tr.svg';
 import FlagUS from './svg/flag-us.svg';
-import { Avatar } from "@mui/material";
+import { Avatar, Typography } from "@mui/material";
 
 export default function Layout() {
   const [darkMode, setDarkMode] = React.useState(true);
@@ -37,6 +38,7 @@ export default function Layout() {
         <Navbar darkMode={darkMode} />
         <Header />
         <Section />
+        <Article />
         <Fab
           sx={{
             position: "fixed",
