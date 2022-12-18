@@ -15,7 +15,7 @@ function Copyright() {
       <Typography variant="body2" color="text.secondary" align="center">
         {"estuyazilim.com - made with ❤️ - "}
         <Link color="inherit" href="https://github.com/ESTUYazilim/estuyazilim.com">
-          see github code
+          see source code
         </Link>
       </Typography>
       <Typography variant="body2" color="text.secondary" align="center">
