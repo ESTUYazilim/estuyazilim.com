@@ -2,8 +2,9 @@ import * as React from "react";
 import { CircularProgress, Container, Box } from "@mui/material";
 import { getMembers, getExecutiveStaff } from "../modules/GitHub";
 import { useEffect } from "react";
-import TechnicalTeam from "../components/Team/TechnicalTeam";
-import ExecutiveTeam from "../components/Team/ExecutiveTeam";
+import TechnicalTeam from "../components/Article/TechnicalTeam";
+import ExecutiveTeam from "../components/Article/ExecutiveTeam";
+import Projects from "../components/Article/Projects";
 
 export default function Members() {
     const [technicalTeamData, setTechnicalTeamData] = React.useState('');
@@ -52,6 +53,7 @@ export default function Members() {
                         }}>
                         <ExecutiveTeam data={executiveTeamData}/>
                         <TechnicalTeam data={technicalTeamData}/>
+                        <Projects />
                     </Box>
                 </Container>)
     );
