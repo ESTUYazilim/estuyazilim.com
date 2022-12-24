@@ -158,7 +158,7 @@ const ResponsiveAppBar = (props) => {
               <Link
                 to={page.targetElementId}
                 smooth={true}
-                offset={100}
+                offset={-100}
                 duration={500}>
                 <Button
                   key={page.targetElementId}
