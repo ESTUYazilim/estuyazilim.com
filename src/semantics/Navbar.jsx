@@ -1,4 +1,5 @@
 import * as React from "react";
+import { useNavigate } from 'react-router-dom';
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -23,13 +24,14 @@ const pages = [
   { label: "Projects", targetElementId: "projects" },
   { label: "Contact", targetElementId: "contact" },
 ];
-const settings = ["Profile", "Account", "Dashboard", "Logout"];
+const settings = ["Register", "Login"];
 
 const ResponsiveAppBar = (props) => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
   const { darkMode } = props;
   const Logo = darkMode ? WhiteIcon : BlackIcon;
+  const navigate = useNavigate();
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -45,6 +47,10 @@ const ResponsiveAppBar = (props) => {
 
   const handleCloseUserMenu = () => {
     setAnchorElUser(null);
+  };
+  
+  const handleNavClick = (event) => {
+    navigate(`/${event.currentTarget.innerText.toLowerCase()}`);
   };
 
   return (
@@ -191,8 +197,8 @@ const ResponsiveAppBar = (props) => {
               }}
               open={Boolean(anchorElUser)}
               onClose={handleCloseUserMenu}>
-              {settings.map((setting) => (
-                <MenuItem key={setting} onClick={handleCloseUserMenu}>
+              {settings.map((setting, i) => (
+                <MenuItem key={i} onClick={handleNavClick}>
                   <Typography textAlign="center">{setting}</Typography>
                 </MenuItem>
               ))}
