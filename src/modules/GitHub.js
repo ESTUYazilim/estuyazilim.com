@@ -1,8 +1,7 @@
 import { Octokit } from "@octokit/rest";
 import executiveStaff from "../configuration/executive_staff.json";
 
-const org_slug = process.env.REACT_APP_ORG_SLUG;
-const github_auth = process.env.REACT_APP_GITHUB_AUTH;
+const org_slug =  "estuyazilim";
 
 const octokit = new Octokit({
 });
