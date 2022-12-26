@@ -11,7 +11,7 @@ const ProgressBar = (props) => {
   React.useEffect(() => {
     const timer = setInterval(() => {
       setProgress((prevProgress) =>
-        prevProgress >= 50 ? 0 : prevProgress + 2
+        prevProgress >= 80 ? 0 : prevProgress + 2
       );
     }, 200);
     return () => {
