@@ -1,5 +1,5 @@
-![Title](https://picsum.photos/1920/1080)
+![Title](images/3.jpg)
 
-# Lorem Ipsum 3
+# Meeting with our active members
 
-Lorem ipsum dolor sit amet
+We met with our software community members to discuss upcoming projects and initiatives. Everyone was excited to hear what we had planned and to contribute their skills and ideas.

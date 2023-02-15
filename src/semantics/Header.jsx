@@ -11,7 +11,7 @@ export default function Header() {
       sx={{
         display: "flex",
         flexDirection: "column",
-        minHeight: "100vh",
+        minHeight: "80vh",
       }}>
       <Container component="header" sx={{ mt: 4, mb: 2 }}>
         <Typography variant="body1">Stay Tuned!</Typography>

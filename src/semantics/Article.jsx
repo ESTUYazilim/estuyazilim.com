@@ -53,7 +53,7 @@ export default function Members() {
         }}>
         <ExecutiveTeam data={executiveTeamData} />
         <TechnicalTeam data={technicalTeamData} />
-        <Projects />
+        {/* <Projects /> */}
       </Box>
     </Container>
   );
