@@ -1,4 +1,4 @@
-![Title](images/1.jpg)
+![Title](image1)
 
 # First meet-up with our members
 
