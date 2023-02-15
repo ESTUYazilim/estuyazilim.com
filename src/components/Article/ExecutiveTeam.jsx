@@ -4,7 +4,6 @@ import { Paper, Typography, Avatar, Grid, Tooltip, Link, List, ListItem, ListIte
 
 export default function ExecutiveTeam(props) {
     const { data } = props;
-    console.log(data);
 
     return (
         <Grid container spacing={2}>
