@@ -1,4 +1,4 @@
-![Title](images/3.jpg)
+![Title](image3)
 
 # Meeting with our active members
 

@@ -1,4 +1,4 @@
-![Title](images/2.PNG)
+![Title](image2)
 
 # Software development lifecycle
 
