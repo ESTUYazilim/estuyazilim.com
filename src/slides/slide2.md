@@ -1,5 +1,5 @@
-![Title](https://picsum.photos/1920/1080)
+![Title](images/2.PNG)
 
-# Lorem Ipsum 2
+# Software development lifecycle
 
-Lorem ipsum dolor sit amet
+Ahmet Icat, ESTU Ford Otosan Software Team Lead Ahmet Icat, discussed the various stages of the software development lifecycle, from planning to implementation and maintenance. He emphasized the importance of effective communication and collaboration between teams in order to deliver successful projects.

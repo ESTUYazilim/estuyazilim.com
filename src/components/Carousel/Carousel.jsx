@@ -43,11 +43,11 @@ function Item(props) {
   return (
     <Paper
       sx={{
-        minHeight: "75vh",
+        minHeight: "60vh",
         padding: 5,
       }}>
       <Markdown
-        style={{ height: "60vh", width: "100%", backgroundColor: "white" }}
+        style={{ height: "45vh", width: "100%", backgroundColor: "white" }}
         options={{
           overrides: {
             h1: TitleComponent,
